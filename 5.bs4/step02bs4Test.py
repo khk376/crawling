@@ -24,11 +24,4 @@ print(soup.find("li", attData).string)
 
 
 # step03 : find 함수로 연속적으로 추출하기
-print(soup.find(id="ve-list").find("li", )
-
-
-
-
-
-
-
+#print(soup.find(id="ve-list").find("li", )
