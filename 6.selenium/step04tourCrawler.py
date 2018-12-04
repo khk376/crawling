@@ -102,7 +102,7 @@ for page in range(1, 5):
             proPrice2 =re.sub("(,*)(\D+)", "",proPrice)
             #proPrice2 =re.sub("\n", "",proPrice)
             tag_period = boxItem.select(".proInfo")[0]
-           # tag_period.find('span').replace_with('')  # <span> 태그 없애기
+            tag_period.find('span').replace_with('')  # <span> 태그 없애기
             proPeriod = tag_period.text
             proJumsu = boxItem.select(".proInfo")[2].text
 
